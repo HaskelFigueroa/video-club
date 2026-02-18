@@ -1,87 +1,111 @@
-# Project Title
+# Video Club
 
-One Paragraph of project description goes here
+Sistema desarrollado como parte de una actividad académica para administrar un Video Club. Permite registrar películas, clientes y rentas, facilitando el control y seguimiento de la información mediante el uso de Git y múltiples repositorios remotos (GitHub, GitLab y Bitbucket).
+
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+Estas instrucciones te permitirán obtener una copia del proyecto y ejecutarlo en tu máquina local para desarrollo y pruebas.
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+Necesitas tener instalado lo siguiente:
 
-```
-Give examples
-```
+- Java JDK 17 o superior
+- Apache NetBeans (o cualquier IDE compatible con Java)
+- Git
+
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
+### Clonar el repositorio
 
-Say what the step will be
-
-```
-Give the example
+```bash
+git clone https://github.com/TU_USUARIO/video-club.git
 ```
 
-And repeat
+### Entrar al directorio del proyecto
 
-```
-until finished
+```bash
+cd video-club
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
+### Abrir el proyecto en el IDE
+
+Abrir el proyecto en Apache NetBeans (o IDE preferido) y ejecutar la aplicación.
+
+Al ejecutarlo podrás:
+
+- Registrar clientes
+- Registrar películas
+- Realizar rentas
+- Consultar información almacenada
+
 
 ## Running the tests
 
-Explain how to run the automated tests for this system
+Las pruebas del sistema se realizan ejecutando la aplicación y validando el flujo completo de uso.
 
 ### Break down into end to end tests
 
-Explain what these tests test and why
+Estas pruebas verifican el funcionamiento completo del sistema.
 
-```
-Give an example
+Ejemplo de flujo de prueba:
+
+```text
+Registrar cliente → Registrar película → Realizar renta → Verificar disponibilidad
 ```
 
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
+Esto garantiza que todos los módulos funcionen correctamente de manera integrada.
 
 ## Deployment
 
-Add additional notes about how to deploy this on a live system
+El código sigue buenas prácticas de programación en Java:
+
+- Uso de camelCase para variables y métodos
+- Organización por clases
+- Separación lógica del sistema
+- Uso de patrones como Singleton (si aplica)
+
+Ejemplo:
+
+```java
+public class Cliente {
+    private String nombre;
+    private String telefono;
+}
+```
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+- Java – Lenguaje principal del sistema
+- Apache NetBeans – Entorno de desarrollo
+- Git – Control de versiones
+- GitHub / GitLab / Bitbucket – Repositorios remotos utilizados
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+Este proyecto fue desarrollado con fines académicos. Las mejoras pueden realizarse mediante:
+
+1. Crear un fork del repositorio
+2. Crear una nueva rama
+3. Realizar cambios
+4. Enviar Pull Request
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+Se utiliza control de versiones con Git.
+
+**v1.0.0** – Primera versión funcional del sistema.
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+**Haskel Figueroa** – Desarrollo del sistema
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+Proyecto de uso académico y educativo.
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+Maestro: Oscar Daniel Pérez Piñón
